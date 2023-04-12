@@ -7,6 +7,7 @@
 
 body{
   overflow-x: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
@@ -40,7 +41,7 @@ color: #ffffff;
 .img-dentro img{
   border-radius: 50%;
   opacity: 3%;
-  position: relative;
+  position: absolute;
 }
 
 .linha-1{
@@ -61,8 +62,12 @@ footer{
   background-color: #10a0d0;;
 }
 .neblina{
-  position: absolute; /* posicionamento absoluto dentro do elemento pai */
-    bottom: 0; /* fixa a div neblina no rodapé */
-    width: 100%; /* largura total do elemento pai */
-    height: 10%; /* altura total do elemento pai */
+  position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    height: 10%; 
+}
+
+#estilo{
+  position: absolute;
 }
