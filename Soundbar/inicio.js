@@ -52,7 +52,7 @@ function logar(){
   console.log(userValid)
 
   if (userValid.nome !== '' && userValid.email !== '' && userValid.senha !== '') {
-    window.location.href = "file:///D:/VsProgramas/Soundbar/index.html";
+    window.location.href = "artistas.html";
   } else {
     alert("Senha ou usuário não encontrado.")
   }
