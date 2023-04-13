@@ -70,7 +70,7 @@ function cadastrar() {
   localStorage.setItem('listaUser', JSON.stringify(listaUser));
   
   alert("Cadastro realizado com sucesso!");
-  window.location.href = "file:///D:/VsProgramas/Soundbar/home.html";
+  window.location.href = "index.html";
   
 }
 

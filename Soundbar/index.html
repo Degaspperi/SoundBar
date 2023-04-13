@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="index.js"></script>
-  <title>SoundBar</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <script src="https://kit.fontawesome.com/5a17157dad.js" crossorigin="anonymous"></script>
+    <script defer src="./inicio.js"></script>
 </head>
 <body>
+    <div class="img">
+        <img src="./img/Soundbarlogo.png" alt="">
+    </div>
 
+     <div class="container">
+        <div class="card">
+            <h1>SoundBar</h1>
 
+           
+            <div class="label-float">
+                <input type="text" id="nome" placeholder="" required>
+                <label id="nomeLabel" for="nome">Nome</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="senha" placeholder="" required>
+                <label id="senhaLabel" for="nome">Senha</label>
+                <i id="olho" class="fa-solid fa-eye-slash"></i>
+                
+            </div>
+            
+
+            <div class="justify-center"> 
+                <button id="botaoEntrar">Entrar</button>
+            </div>
+
+            <p>Não tem uma conta?
+                <a href="cadastro.html">Cadastre-se</a>
+                <br> <a id="cor" href="senha.html">Esqueceu a senha?</a>
+            </p>
+
+        </div>
+
+     </div>
 </body>
-
 </html>
